@@ -6,7 +6,7 @@ import pandas as pd
 
 
 def main():
-    curTime = datetime.now().strftime("%d/%m/%Y")
+    curTime = datetime.now().strftime("%d/%m/%Y %H:%M:%S")
     df = pd.read_csv("res.csv")
     page = requests.get(
         "https://www.lazada.com.my/products/pre-order-delivery-in-14-days-enhanced-touch-n-go-card-to-be-released-by-batches-i3175099305-s16072707014.html?clickTrackInfo=undefined&search=1&spm=a2o4k.searchlistbrand.list.49"
