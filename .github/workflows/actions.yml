@@ -2,7 +2,7 @@ name: tng nfc scraper
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/15 * * * *'
 
 jobs:
   build:
